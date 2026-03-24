@@ -1,16 +1,48 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo application built with React, Vite, and Styled Components.
 
-Currently, two official plugins are available:
+## Features
+- **Add Tasks**: Easily add new tasks to your list.
+- **Toggle Completion**: Click on a task to mark it as completed (with a line-through style).
+- **Delete Tasks**: Remove tasks you no longer need.
+- **Fully Responsive**: Designed to work well on different screen sizes.
+- **Unit Tested**: Core logic and UI interactions are verified with Vitest and React Testing Library.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Prerequisites
+- **Node.js**: Ensure you have Node.js installed (v18 or later recommended).
+- **npm**: Comes with Node.js.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   The app will be available at [http://localhost:5173](http://localhost:5173).
+
+## Available Scripts
+
+- `npm run dev`: Starts the development server using Vite.
+- `npm run build`: Compiles the app for production into the `dist` directory.
+- `npm run test`: Runs the unit tests using Vitest.
+- `npm run preview`: Locally previews the production build.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+
+## Technologies Used
+- **React**: For building the user interface.
+- **Vite**: A fast build tool for modern web development.
+- **Styled Components**: For component-level styling with CSS-in-JS.
+- **Vitest**: A Vite-native unit testing framework.
+- **React Testing Library**: To test React components by interacting with them.
